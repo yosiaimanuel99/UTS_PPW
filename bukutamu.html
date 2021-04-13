@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="judul">
+        <h1>Buku Tamu</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="bukutamu.html">Buku Tamu</a></li>
+        </ul>
+    </nav>
+    <body onload="tampilTamu() ">
+        <h1>Buku Tamu</h1>
+        <form onsubmit="simpanTamu()">
+            <label for="email">Masukkan Email</label> <br>
+            <input type="text" name="" id="email" placeholder="Email"> <br>
+            <label for="email">Masukkan Nama</label> <br>
+            <input type="text" name="" id="nama" placeholder="Nama"> <br>
+            <label for="email">Masukkan Pesan</label> <br>
+            <textarea name="" id="pesan" cols="30" rows="8" placeholder="Pesan"></textarea><br>
+            <button type="submit">Simpan</button>
+        </form>
+        <h2>Daftar Tamu</h2>
+        <div id="daftar"></div>
+        <script src="script.js"></script>
+    </body>
+</body>
+</html>

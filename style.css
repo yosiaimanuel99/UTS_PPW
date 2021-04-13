@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: black;
+}
+
+nav{
+    background-color:#1565c0 ;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;    
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+
+
+footer{
+    background-color:#1565c0;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main{
+    overflow: auto;
+    padding: 15px;
+}
+
+aside{
+    text-align: center;
+    width: 24%;
+    float: left;
+}
+
+
+.text-justify{
+    text-align: justify;
+}
+
+.judul{
+    background-color: #01579b;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+.content{
+    width: 75%;
+    float: right;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.label{
+    background-color:#1565c0 ;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.feature_img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 922px){
+    .card, aside {
+        width: 100%;
+    } 
+} 
